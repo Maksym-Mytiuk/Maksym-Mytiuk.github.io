@@ -1,0 +1,34 @@
+@import './../../assets/css/colors';
+$perspective: 800px;
+$transformStyle: preserve-3d;
+
+.card {
+  display: flex;
+  margin-bottom: 2em;
+  position: relative;
+  perspective: $perspective;
+  &:hover {
+    .flip {
+      transform: rotateY(-180deg);
+    }
+  }
+  .flip {
+    background-color: transparent;
+    box-shadow: 0 3px 6px rgba($black, 0.16), 0 3px 6px rgba($black, 0.23);
+    transform-style: $transformStyle;
+    transition: box-shadow 0.5s, transform 0.5s;
+    .face {
+      backface-visibility: hidden;
+      z-index: 2;
+    }
+    .front {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .back {
+      transform: rotateY(-180deg);
+    }
+  }
+}
