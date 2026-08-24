@@ -1,0 +1,1 @@
+var e=({user:e})=>e.user;export{e as t};

@@ -1,0 +1,1 @@
+function e(e,t=new Date().toString()){let n=new Date(t).getTime()-new Date(e).getTime();return Math.floor(n/864e5)}export{e as t};

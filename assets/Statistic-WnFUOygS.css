@@ -1,0 +1,1 @@
+.world-map{width:100%;max-width:1000px;padding:0 24px}.world-map path{fill:#e9e9e9;stroke:#000;cursor:pointer;transition:fill .1s ease-in-out}.world-map path:hover{fill:#737373}.world-map path.home{fill:#0e881e!important}.world-map path.ru{pointer-events:none;fill:#ab2d2d!important}.world-map text{fill:#fff;font-size:36px}

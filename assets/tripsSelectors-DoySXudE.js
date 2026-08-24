@@ -1,0 +1,1 @@
+import{a as e}from"./index-BKyI9Nkn.js";var t=e.getSelectors(e=>e.trips),n=t.selectAll,r=t.selectIds,i=e=>n=>t.selectById(n,e);export{n,r,i as t};

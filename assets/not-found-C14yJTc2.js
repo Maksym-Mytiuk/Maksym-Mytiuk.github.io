@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-hvqaEnd3.js";import{i as t,t as n}from"./Router-B46e-6_J.js";var r=e();function i(){return(0,r.jsxs)(`div`,{className:`error-page`,children:[(0,r.jsx)(`h1`,{children:`404`}),(0,r.jsx)(t,{to:n.HOME,children:`Go home`})]})}var a=i;export{a as default};
